@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bfne03hbniwgu"
+path="res://.godot/imported/Horror Abyss Cut 60.ogg-ffb29b7f9a5782def1eab57791c6c97f.oggvorbisstr"
+
+[deps]
+
+source_file="res://sounds/music/Abyss (RT 6.21 sec)/Horror Abyss Cut 60.ogg"
+dest_files=["res://.godot/imported/Horror Abyss Cut 60.ogg-ffb29b7f9a5782def1eab57791c6c97f.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

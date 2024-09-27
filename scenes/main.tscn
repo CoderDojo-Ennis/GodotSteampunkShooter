@@ -8,6 +8,15 @@
 [ext_resource type="FontFile" uid="uid://gw00hd1cdgb0" path="res://fonts/Steamwreck-07pd.ttf" id="5_xuq60"]
 [ext_resource type="PackedScene" uid="uid://bvx5cvigosg0s" path="res://objects/platform_large_grass.tscn" id="7_wggef"]
 [ext_resource type="PackedScene" uid="uid://d2g78tpqbyf5g" path="res://objects/enemy.tscn" id="8_7ty2f"]
+[ext_resource type="Script" path="res://sounds/music/Ovani Plugin 1.4/OvaniPlayer.gd" id="6_4kkd5"]
+[ext_resource type="Script" path="res://sounds/music/Ovani Plugin 1.4/OvaniSong.gd" id="7_v0ud1"]
+[ext_resource type="PackedScene" uid="uid://bvx5cvigosg0s" path="res://objects/environment/platform_large_grass.tscn" id="7_wggef"]
+[ext_resource type="PackedScene" uid="uid://d2g78tpqbyf5g" path="res://objects/enemies/enemy.tscn" id="8_7ty2f"]
+[ext_resource type="AudioStream" uid="uid://cwxfa10t1kmke" path="res://sounds/music/Abyss (RT 6.21 sec)/Horror Abyss Intensity 1.ogg" id="8_n73d1"]
+[ext_resource type="AudioStream" uid="uid://bu3obp3nh6sta" path="res://sounds/music/Abyss (RT 6.21 sec)/Horror Abyss Intensity 2.ogg" id="9_twa3k"]
+[ext_resource type="AudioStream" uid="uid://bka54c3yxeegr" path="res://sounds/music/Abyss (RT 6.21 sec)/Horror Abyss Main.ogg" id="10_i16ht"]
+[ext_resource type="AudioStream" uid="uid://bsdc7nolcgap" path="res://sounds/music/Abyss (RT 6.21 sec)/Horror Abyss Cut 30.ogg" id="11_daof6"]
+[ext_resource type="AudioStream" uid="uid://bfne03hbniwgu" path="res://sounds/music/Abyss (RT 6.21 sec)/Horror Abyss Cut 60.ogg" id="12_ax6sf"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_fpmwk"]
 line_spacing = 4.0
@@ -17,6 +26,16 @@ outline_size = 2
 outline_color = Color(0, 0, 0, 1)
 shadow_size = 8
 shadow_color = Color(0, 0, 0, 0.509804)
+
+[sub_resource type="Resource" id="Resource_5pg2s"]
+script = ExtResource("7_v0ud1")
+Intensity1 = ExtResource("8_n73d1")
+Intensity2 = ExtResource("9_twa3k")
+Intensity3 = ExtResource("10_i16ht")
+Loop30 = ExtResource("11_daof6")
+Loop60 = ExtResource("12_ax6sf")
+ReverbTail = 0.0
+SongMode = 0
 
 [node name="Main" type="Node3D"]
 
@@ -60,6 +79,10 @@ theme = ExtResource("4_1mbh4")
 text = "100%"
 label_settings = SubResource("LabelSettings_fpmwk")
 vertical_alignment = 2
+
+[node name="OvaniPlayer" type="Node" parent="HUD"]
+script = ExtResource("6_4kkd5")
+QueuedSongs = Array[ExtResource("7_v0ud1")]([SubResource("Resource_5pg2s")])
 
 [node name="Enemies" type="Node" parent="."]
 
