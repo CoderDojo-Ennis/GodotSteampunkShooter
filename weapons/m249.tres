@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="Weapon" load_steps=4 format=3 uid="uid://cu2gtxlcmbb34"]
+
+[ext_resource type="Texture2D" uid="uid://bwjn1h8t1b3qa" path="res://sprites/crosshair1.png" id="1_mkss2"]
+[ext_resource type="PackedScene" uid="uid://b3ky8wos0a8k0" path="res://models/Weapons/m249_saw_classic.glb" id="2_5srr6"]
+[ext_resource type="Script" path="res://scripts/weapon.gd" id="3_wqto2"]
+
+[resource]
+script = ExtResource("3_wqto2")
+model = ExtResource("2_5srr6")
+position = Vector3(1, -2, -2)
+rotation = Vector3(0, 0, 0)
+muzzle_position = Vector3(-0.2, -0.3, 3)
+cooldown = 0.1
+max_distance = 10
+damage = 10.0
+spread = 0.5
+shot_count = 1
+knockback = 10
+sound_shoot = "sounds/blaster_repeater.ogg"
+crosshair = ExtResource("1_mkss2")

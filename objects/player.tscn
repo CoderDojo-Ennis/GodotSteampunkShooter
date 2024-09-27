@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://objects/player.gd" id="1_ffboj"]
 [ext_resource type="Script" path="res://scripts/weapon.gd" id="2_0b7rm"]
-[ext_resource type="Resource" uid="uid://cu2gtxlcmbb34" path="res://weapons/blunderbuss-repeater.tres" id="2_6epbw"]
+[ext_resource type="Resource" uid="uid://cu2gtxlcmbb34" path="res://weapons/m249.tres" id="2_6epbw"]
 [ext_resource type="Texture2D" uid="uid://8ggihh27mlrr" path="res://sprites/blob_shadow.png" id="2_b0fo8"]
 [ext_resource type="Resource" uid="uid://c56y8pqoyk15f" path="res://weapons/blunderbuss.tres" id="3_kr4p8"]
 [ext_resource type="SpriteFrames" uid="uid://dbv3sy5qjatnl" path="res://sprites/burst_animation.tres" id="4_m6ukc"]
