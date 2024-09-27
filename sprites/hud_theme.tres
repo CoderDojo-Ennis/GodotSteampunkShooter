@@ -1,0 +1,6 @@
+[gd_resource type="Theme" load_steps=2 format=3 uid="uid://bk25b7t1pyb5e"]
+
+[ext_resource type="FontFile" uid="uid://cvnp2g7oe8c2c" path="res://fonts/VictorianParlorVintageAlternateFree-Yoe4.ttf" id="1_5aap6"]
+
+[resource]
+default_font = ExtResource("1_5aap6")
