@@ -2,33 +2,30 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://da2najl4tnbr"
-path.s3tc="res://.godot/imported/m249_saw_classic_1.png-1dbcaca15e40257da83fda4ec34fe912.s3tc.ctex"
+uid="uid://b5hxnjwvrxuji"
+path.bptc="res://.godot/imported/colormap.png-623e3dc553dbfeb2b1880147e2d0f5c3.bptc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
-generator_parameters={
-"md5": "0dea688a095210ceafcd0fd78d8551bb"
-}
 
 [deps]
 
-source_file="res://models/weapons/m249_saw_classic_1.png"
-dest_files=["res://.godot/imported/m249_saw_classic_1.png-1dbcaca15e40257da83fda4ec34fe912.s3tc.ctex"]
+source_file="res://models/environment/Textures/colormap.png"
+dest_files=["res://.godot/imported/colormap.png-623e3dc553dbfeb2b1880147e2d0f5c3.bptc.ctex"]
 
 [params]
 
 compress/mode=2
-compress/high_quality=false
+compress/high_quality=true
 compress/lossy_quality=0.7
 compress/hdr_compression=1
 compress/normal_map=0
 compress/channel_pack=0
 mipmaps/generate=true
 mipmaps/limit=-1
-roughness/mode=8
-roughness/src_normal="res://models/Weapons/m249_saw_classic_2.png"
+roughness/mode=0
+roughness/src_normal=""
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/normal_map_invert_y=false

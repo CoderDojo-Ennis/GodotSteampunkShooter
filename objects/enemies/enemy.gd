@@ -19,7 +19,7 @@ func _ready():
 
 func _process(delta):
 	self.look_at(player.position + Vector3(0, 0.5, 0), Vector3.UP, true)  # Look at player
-	target_position.y += (cos(time * 5) * 1) * delta  # Sine movement (up and down)
+	# target_position.y += (cos(time * 5) * 1) * delta  # Sine movement (up and down)
 
 	time += delta
 
@@ -52,7 +52,7 @@ func _on_timer_timeout():
 		var collider = raycast.get_collider()
 
 		if collider.has_method("damage"):  # Raycast collides with player
-			
+
 			# Play muzzle flash animation(s)
 
 			muzzle_a.frame = 0

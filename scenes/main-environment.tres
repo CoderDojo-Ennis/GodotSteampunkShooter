@@ -1,26 +1,19 @@
-[gd_resource type="Environment" load_steps=5 format=3 uid="uid://jvmpkdwaeaq"]
+[gd_resource type="Environment" load_steps=3 format=3 uid="uid://jvmpkdwaeaq"]
 
-[sub_resource type="Gradient" id="Gradient_tio4a"]
-colors = PackedColorArray(0.591319, 0.47222, 0.770854, 1, 0.315871, 0.421528, 0.674528, 1)
-
-[sub_resource type="GradientTexture2D" id="GradientTexture2D_4e6px"]
-gradient = SubResource("Gradient_tio4a")
-fill_to = Vector2(0, 1)
-
-[sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_fjheq"]
-panorama = SubResource("GradientTexture2D_4e6px")
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_gayms"]
 
 [sub_resource type="Sky" id="Sky_7bk1c"]
-sky_material = SubResource("PanoramaSkyMaterial_fjheq")
+sky_material = SubResource("ProceduralSkyMaterial_gayms")
 radiance_size = 0
 
 [resource]
 background_mode = 2
 background_color = Color(0.360784, 0.392157, 0.462745, 1)
+background_energy_multiplier = 0.15
 sky = SubResource("Sky_7bk1c")
 ambient_light_source = 2
 ambient_light_color = Color(0.662745, 0.694118, 0.772549, 1)
-ambient_light_energy = 1.15
+ambient_light_energy = 0.11
 tonemap_mode = 2
 ssao_enabled = true
 ssao_radius = 0.45

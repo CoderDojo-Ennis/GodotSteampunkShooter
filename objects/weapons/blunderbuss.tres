@@ -1,7 +1,7 @@
 [gd_resource type="Resource" script_class="Weapon" load_steps=4 format=3 uid="uid://c56y8pqoyk15f"]
 
 [ext_resource type="Texture2D" uid="uid://bwjn1h8t1b3qa" path="res://sprites/crosshair1.png" id="1_ax5it"]
-[ext_resource type="PackedScene" uid="uid://d25wqpnhu7ado" path="res://models/Weapons/blunderbuss.glb" id="2_g1sy3"]
+[ext_resource type="PackedScene" uid="uid://d25wqpnhu7ado" path="res://models/weapons/blunderbuss.glb" id="2_g1sy3"]
 [ext_resource type="Script" path="res://scripts/weapon.gd" id="3_hif32"]
 
 [resource]

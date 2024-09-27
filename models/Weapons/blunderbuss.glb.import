@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://d25wqpnhu7ado"
-path="res://.godot/imported/blunderbuss.glb-3854203a912bd4dced903d1c314e76f1.scn"
+path="res://.godot/imported/blunderbuss.glb-f3df22c0d1a81aef69742e770bdbd06b.scn"
 
 [deps]
 
-source_file="res://models/Weapons/blunderbuss.glb"
-dest_files=["res://.godot/imported/blunderbuss.glb-3854203a912bd4dced903d1c314e76f1.scn"]
+source_file="res://models/weapons/blunderbuss.glb"
+dest_files=["res://.godot/imported/blunderbuss.glb-f3df22c0d1a81aef69742e770bdbd06b.scn"]
 
 [params]
 

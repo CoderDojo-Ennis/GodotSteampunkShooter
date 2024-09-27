@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b3ky8wos0a8k0"
-path="res://.godot/imported/m249_saw_classic.glb-801c1bb72aab12fb4d45bc89f74cdf3f.scn"
+path="res://.godot/imported/m249_saw_classic.glb-ad44cb4a297a89c0ffa03a446e84f70a.scn"
 
 [deps]
 
-source_file="res://models/Weapons/m249_saw_classic.glb"
-dest_files=["res://.godot/imported/m249_saw_classic.glb-801c1bb72aab12fb4d45bc89f74cdf3f.scn"]
+source_file="res://models/weapons/m249_saw_classic.glb"
+dest_files=["res://.godot/imported/m249_saw_classic.glb-ad44cb4a297a89c0ffa03a446e84f70a.scn"]
 
 [params]
 

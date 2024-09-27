@@ -226,7 +226,7 @@ func action_shoot():
 
 			# Creating an impact animation
 
-			var impact = preload("res://objects/impact.tscn")
+			var impact = preload("res://objects/fx/impact.tscn")
 			var impact_instance = impact.instantiate()
 
 			impact_instance.play("shot")

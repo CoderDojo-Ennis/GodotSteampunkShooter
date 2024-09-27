@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://t0wol62aiv0i"
-path.s3tc="res://.godot/imported/blunderbuss_1.png-84d072c9cbfdc3becf10a940120d26a2.s3tc.ctex"
+path.s3tc="res://.godot/imported/blunderbuss_1.png-45edc449c04ffc5cf227d412965ad701.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://models/Weapons/blunderbuss_1.png"
-dest_files=["res://.godot/imported/blunderbuss_1.png-84d072c9cbfdc3becf10a940120d26a2.s3tc.ctex"]
+source_file="res://models/weapons/blunderbuss_1.png"
+dest_files=["res://.godot/imported/blunderbuss_1.png-45edc449c04ffc5cf227d412965ad701.s3tc.ctex"]
 
 [params]
 
