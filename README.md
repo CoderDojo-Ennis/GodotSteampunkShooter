@@ -1,23 +1,25 @@
-<p align="center"><img src="icon.png"/></p>
+<p align="center"><img src="splash-screen.png" style="width:100%;max-width: 400px;"/></p>
 
-# Starter Kit FPS
+# Godot Steampunk Shooter
 
-This package includes a basic template for a first person shooter in Godot 4.3 (stable). Includes features like;
+This is build from Kenney's FPS template for [Godot 4.3](https://godotengine.org/download) which features like;
 
 - Character controller
 - Weapons, switching weapons
 - Enemies
-- Sprites and 3D Models _(CC0 licensed)_
+- Sprites and 3D Models
 
 ### Controls
 
-| Key | Command |
-| --- | --- |
-| <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> | Movement |
-| <kbd>Spacebar</kbd> | Jump |
-| <kbd>Left mouse button</kbd> | Shoot |
-| <kbd>E</kbd> | Switch weapon |
+| Key                                                 | Command       |
+| --------------------------------------------------- | ------------- |
+| <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> | Movement      |
+| <kbd>Spacebar</kbd>                                 | Jump          |
+| <kbd>Left mouse button</kbd>                        | Shoot         |
+| <kbd>E</kbd>                                        | Switch weapon |
 
 ### License
 
 MIT License
+
+<img width="40px" src="icon.png"/>
