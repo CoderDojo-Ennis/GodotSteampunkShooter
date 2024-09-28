@@ -3,7 +3,7 @@ extends Node
 # Code adapted from KidsCanCode
 
 var num_players = 12
-var bus = "master"
+var bus = "FX"
 
 var available = []  # The available players.
 var queue = []  # The queue of sounds to play.

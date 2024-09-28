@@ -80,6 +80,7 @@ vertical_alignment = 2
 [node name="OvaniPlayer" type="Node" parent="HUD"]
 script = ExtResource("6_4kkd5")
 QueuedSongs = Array[ExtResource("7_v0ud1")]([SubResource("Resource_5pg2s")])
+Bus = &"Music"
 
 [node name="Enemies" type="Node" parent="."]
 
